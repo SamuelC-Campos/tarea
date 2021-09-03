@@ -40,7 +40,7 @@ void leerArchivo(char *nombreArchivo) {
 
         if (contador == 0) {
             contador = 1;
-        } else {
+        } else { 
             while (line != NULL) {               
                 printf("%-5s", line);
                 break;
